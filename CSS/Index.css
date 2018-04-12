@@ -10,7 +10,7 @@ body{
 	line-height: 1.5;
 }
 html{
-	background: url(/Images/pexels-photo-733857.jpeg) no-repeat;
+	background: url(../Images/pexels-photo-733857.jpeg) no-repeat;
 	background-size: 100% 50vh;
 }
 .header-content{
