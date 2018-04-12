@@ -1,0 +1,184 @@
+@media (max-width: 600px){
+	body{
+		margin: 0px 7px;
+	}
+	.navigation-bar{
+		display: none;
+}
+	#sidebar{
+    width: 200px;
+    height: 100%;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -200px;
+    cursor: pointer;
+    transition: 0.4s linear;
+	}
+	#sidebar.visible{
+		left: 0px;
+		transition: 0.4s linear;
+	}
+	.sidebar-menu > a{
+		cursor: pointer;
+	}
+	.sidebar-menu > a:hover{
+		color: whitesmoke;
+	}
+	.sidebar-menu{
+		padding: 15px 0px;
+		border: none;
+		cursor: pointer;
+		display: block;
+	}
+	.sidebar-menu:hover{
+		background-color: rgba(242, 242, 242, 0.18);
+	}
+	#sidebar-btn{
+		display: inline-block;
+		vertical-align: middle;
+		width: 24px;
+		cursor: pointer;
+		margin: 15px;
+		position: absolute;
+		top: 0;
+	}
+	#sidebar-btn > span{
+		height: 2px;
+		background-color: #f2f3f4b0;
+		margin-bottom: 5px;
+		display: block;
+	}
+	#sidebar-btn > span:nth-child(2){
+		width: 75%;
+	}
+	#sidebar-btn > span:nth-child(3){
+		width: 50%;
+	}
+	.closebtn{
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+		transition: 0.4s linear;
+		color: red;
+	}
+	.grid-container{
+		display: flex;
+		flex-direction: column;
+	}
+	.grid-container1{
+		display: flex;
+		flex-direction: column;
+	}
+	.grid-container2{
+		display: flex;
+		flex-direction: column;
+	}
+	.grid-container3{
+		display: flex;
+		flex-direction: column;
+	}
+	.grid-container4{
+		display: flex;
+		flex-direction: column;
+	}
+	.skills-logo{
+		justify-content: center;
+		padding-bottom: 40px;
+		justify-content: right;
+	}
+}
+@media (max-width: 768px){
+	body{
+		margin: 0px 7px;
+	}
+	.navigation-bar{
+		display: none;
+	}
+	#sidebar{
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -250px;
+    cursor: pointer;
+    transition: 0.4s linear;
+    overflow-x: hidden;
+	}
+	#sidebar.visible{
+		left: 0px;
+		transition: 0.4s linear;
+	}
+	.sidebar-menu > a{
+		cursor: pointer;
+	}
+	.sidebar-menu > a:hover{
+		color: whitesmoke;
+	}
+	.sidebar-menu{
+		padding: 15px 0px;
+		border: none;
+		cursor: pointer;
+		display: block;
+		position: relative;
+    	top: 25px;
+	}
+	.sidebar-menu:hover{
+		background-color: rgba(242, 242, 242, 0.18);
+	}
+	#sidebar-btn{
+		display: inline-block;
+		vertical-align: middle;
+		width: 24px;
+		cursor: pointer;
+		margin: 15px;
+		position: absolute;
+		top: 0;
+	}
+	#sidebar-btn > span{
+		height: 2px;
+		background-color: #f2f3f4;
+		margin-bottom: 5px;
+		display: block;
+	}
+	#sidebar-btn > span:nth-child(2){
+		width: 75%;
+	}
+	#sidebar-btn > span:nth-child(3){
+		width: 50%;
+	}
+	.closebtn{
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+		transition: 0.4s linear;
+	}	
+	.grid-container{
+    	grid-template-columns: auto auto;
+    	grid-template-rows: auto auto;
+	}
+	.heading {
+    grid-column: 1 / span 3;
+	}
+	.grid-container1{
+		display: flex;
+		flex-direction: column;
+	}
+	#carrom {
+    grid-row: 3;
+    grid-column:  1 / span 2;
+	}
+	.skills-logo{
+		justify-content: center;
+		padding-bottom: 40px;
+		justify-content: right;
+	}
+
+}
